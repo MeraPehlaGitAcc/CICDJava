@@ -14,7 +14,7 @@ public class HelloWorld {
 
     @GetMapping("/view")
     public String message1(){
-        return "Welcome to Sample Spring Boot Application";
+        return "Welcome to Sample Spring Boot Application After a new Makeover with new commit";
     }
 
     @GetMapping("/viewAll")
